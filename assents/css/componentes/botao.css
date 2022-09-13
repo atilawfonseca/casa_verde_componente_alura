@@ -1,0 +1,16 @@
+.botao {
+    background-color: var(--amarelo);
+    color: white;
+    padding: 1.759rem;
+    width: 100%;
+    font-weight: var(--peso-fonte-botao);
+    box-shadow: 10px 10px 30px var(--amarelo-transparente);
+    
+}
+
+.botao--alternativo {
+    background-color: white;
+    color: var(--amarelo);
+    border: 1px solid var(--amarelo);
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+}

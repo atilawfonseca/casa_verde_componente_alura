@@ -1,0 +1,26 @@
+@import url(assents/css/reset.css);
+@import url(assents/css/componentes/botao.css);
+@import url(assents/css/componentes/conteiner.css);
+@import url(assents/css/componentes/titulo.css);
+@import url(assents/css/componentes/input.css);
+@import url(assents/css/cabecalho.css);
+
+:root {
+    --preto-botao: #202020; 
+    --cinza: #909090;
+    --amarelo: #FFCB47;
+    --amarelo-transparente: #FFCB473D;
+    --preto-transparente: #0000000F;
+
+    --titulo-preto: 'Elsie Swash Caps';
+    --titulo-cinza: 'Montserrat';
+
+    --peso-font-titulo: 900;
+    --peso-fonte-botao:700; 
+    
+    
+}
+body {
+    font-size: 16px;
+    color: var(--cinza);
+}

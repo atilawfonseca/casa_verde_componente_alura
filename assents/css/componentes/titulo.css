@@ -1,0 +1,15 @@
+.titulo {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: var(--titulo-cinza);
+    text-shadow: -2px 2px 2px var(--preto-transparente);    
+}
+.titulo__destaque {
+    font-family: var(--titulo-preto);
+    color: var(--preto-botao);
+    font-size: 32px;
+    font-weight: 900;
+}
+.alinhamento-central {
+    text-align: center;
+}
