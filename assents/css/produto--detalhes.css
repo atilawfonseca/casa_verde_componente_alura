@@ -1,0 +1,39 @@
+
+.chamada-planta {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.chamada-planta__img {
+    width: 100%;
+}
+
+.produto--descricao-valor {
+    padding-top: 1rem;
+}
+
+.produto--descricao {
+    background-color: white;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+.produto--descricao h2 {
+    width: 60%;
+}
+.produto--descricao-texto{
+    padding-top: 1rem;
+    line-height: 2rem;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+.produto--descricao a {
+    text-decoration: none;
+    color: var(--amarelo);
+    
+}
+
+.produto--detalhes {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}

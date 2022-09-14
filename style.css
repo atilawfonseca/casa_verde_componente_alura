@@ -12,6 +12,7 @@
 @import url(assents/css/como--conseguir.css);
 @import url(assents/css/nossos--produtos.css);
 @import url(assents/css/nossos-videos.css);
+@import url(assents/css/produto--detalhes.css);
 
 :root {
     --preto-botao: #202020; 
