@@ -1,5 +1,6 @@
 .titulo {
     font-size: 22px;
+    line-height: 1.5em;
     font-weight: 400;
     font-family: var(--titulo-cinza);
     text-shadow: -2px 2px 2px var(--preto-transparente);    
@@ -12,4 +13,24 @@
 }
 .alinhamento-central {
     text-align: center;
+}
+.titulo--alternativo {
+    font-size: 32px;
+    color: black;
+    line-height: 1em;
+    font-weight: 700;
+}
+.subtitulo {
+    color: var(--cinza);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rodape__titulo {
+    color: black;
+    font-size: 22px;
+    line-height: 2em;
+}
+.endereco {
+    line-height: 1.5em;
 }

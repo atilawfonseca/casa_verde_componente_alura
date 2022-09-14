@@ -4,6 +4,10 @@
 @import url(assents/css/componentes/titulo.css);
 @import url(assents/css/componentes/input.css);
 @import url(assents/css/cabecalho.css);
+@import url(assents/css/componentes/cartao.css);
+@import url(assents/css/componentes/video.css);
+@import url(assents/css/rodape.css);
+@import url(assents/css/principal.css);
 
 :root {
     --preto-botao: #202020; 
@@ -22,5 +26,8 @@
 }
 body {
     font-size: 16px;
+    font-family: var(--titulo-cinza);
     color: var(--cinza);
+    font-weight: 400;
+    background-image: url(assents/img/Linhas.svg);
 }

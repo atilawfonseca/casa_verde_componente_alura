@@ -1,0 +1,39 @@
+.principal {
+    
+    background-image: url("../icons/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+    margin-top: 1em;
+
+}
+.principal__chamada {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1rem;
+}
+.chamada--conteudo {
+    padding-top: 1rem;
+    display: grid;
+    height: 40vh;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+.chamada--conteudo p {
+    line-height: 1.5rem;
+    font-size: 1em;
+}
+.chamada--conteudo-img {
+    width: 60%;
+    max-width: 300px;
+    left: 30%;
+    bottom: -25px;
+    overflow: hidden;
+    background-size: cover;
+    position: absolute;
+}
+.principal__chamada form {
+    margin-top: 1.5em;
+}
