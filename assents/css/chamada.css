@@ -1,16 +1,9 @@
-.principal {
-    
+.chamada {
     background-image: url("../icons/Vector.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 25%;
-    margin-top: 1em;
-
-}
-.principal__chamada {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     padding: 0px 1rem;
 }
 .chamada--conteudo {
@@ -20,6 +13,7 @@
     grid-template-columns: 50% 50%;
     position: relative;
     box-sizing: border-box;
+    padding-bottom: 1rem;
 }
 .chamada--conteudo p {
     line-height: 1.5rem;
@@ -34,6 +28,6 @@
     background-size: cover;
     position: absolute;
 }
-.principal__chamada form {
+.chamada form {
     margin-top: 1.5em;
 }

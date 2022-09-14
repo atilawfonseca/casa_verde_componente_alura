@@ -8,6 +8,8 @@
 @import url(assents/css/componentes/video.css);
 @import url(assents/css/rodape.css);
 @import url(assents/css/principal.css);
+@import url(assents/css/chamada.css);
+@import url(assents/css/como--conseguir.css);
 
 :root {
     --preto-botao: #202020; 
