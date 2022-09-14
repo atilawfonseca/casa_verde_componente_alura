@@ -2,9 +2,14 @@
 .chamada-planta {
     margin-top: 2rem;
     margin-bottom: 2rem;
+   
+
 }
 .chamada-planta__img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
+    
 }
 
 .produto--descricao-valor {
