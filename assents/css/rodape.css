@@ -1,7 +1,29 @@
 .rodape {
+    background-image: url("../icons/Vector_2.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
     width: 100vw;
     box-sizing: border-box;
     background-color: white;
     padding: 1rem 1.5rem;
 
+}
+
+.rodape__redes-sociais {
+    display: flex;
+    gap: 1.5em;
+    padding: 1rem 0px;
+}
+
+.rodape__titulo {
+    color: black;
+    font-size: 22px;
+    line-height: 2em;
+}
+.endereco {
+    line-height: 1.5em;
+    margin-top: 0.75rem;
+    font-size: 16px;
+    
 }

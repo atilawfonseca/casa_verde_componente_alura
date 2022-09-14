@@ -10,6 +10,8 @@
 @import url(assents/css/principal.css);
 @import url(assents/css/chamada.css);
 @import url(assents/css/como--conseguir.css);
+@import url(assents/css/nossos--produtos.css);
+@import url(assents/css/nossos-videos.css);
 
 :root {
     --preto-botao: #202020; 
@@ -32,4 +34,5 @@ body {
     color: var(--cinza);
     font-weight: 400;
     background-image: url(assents/img/Linhas.svg);
+    background-color: rgba(0, 0, 0, 0.03);
 }

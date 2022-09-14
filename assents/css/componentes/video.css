@@ -7,10 +7,9 @@
 
 }
 .video__background {
-   background-image: url("../../img/Mask\ Group-1.png");
+   background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
-   background-color: black;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -19,6 +18,7 @@
    margin-bottom: 0.5em;
    
 }
+
 .video__background img {
     width: 70px;
     height: 70px;
