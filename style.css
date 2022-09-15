@@ -35,5 +35,6 @@ body {
     color: var(--cinza);
     font-weight: 400;
     background-image: url(assents/img/Linhas.svg);
+    background-size: 100vw;
     background-color: rgba(0, 0, 0, 0.03);
 }
