@@ -37,4 +37,20 @@ body {
     background-image: url(assents/img/Linhas.svg);
     background-size: 100vw;
     background-color: rgba(0, 0, 0, 0.03);
+    
+    
+}
+
+@media screen and (min-width:900px) {
+    .background-vector {
+        background-image: none;
+    }
+   
+
+    .background-vector-desktop{
+        background-image: url(assents/icons/Vector_desktop.svg);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: right 10px;
+    }
 }

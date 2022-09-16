@@ -10,25 +10,74 @@
     <title>Casa Verde</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="cabecalho container">
-        <img src="assents/icons/logo.svg" alt=""><a href=""><img src="assents/icons/carrinho.svg" alt=""></a>
+<body class="background-vector-desktop">
+    <header class="cabecalho container ">
+        <img src="assents/icons/logo.svg" alt="logo da empresa">
+        <nav class=" container navegacao--desktop">
+            <ul >
+                <!--li*5>a[href="#"].link-->
+                <li><a href="#" >Como fazer</a></li>
+                <li><a href="#" >Ofertas</a></li>
+                <li><a href="#" >Departamentos</a></li>
+                <li><a href="#" >Vídeos</a></li>
+                <li><a href="#" >Minhas compras</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cabecalho__icon-carrinho"><img src="assents/icons/carrinho.svg" alt="carrinho de compra"></a>
+        
     </header>
 
-    <main>
-        <section class="chamada">
+    <main class="principal">
+        <nav class=" container">
+            <ul class="navegacao--links">
+                <!--li*5>a[href="#"].link-->
+                <li><a href="#" >Como fazer</a></li>
+                <li><a href="#" >Ofertas</a></li>
+                <li><a href="#" >Departamentos</a></li>
+                <li><a href="#" >Vídeos</a></li>
+            </ul>
+        </nav>
+        
+        <section class="chamada background-vector">
             <h2 class="titulo ">Sua casa com as <br><span class="titulo__destaque">melhores plantas</span></h2>
             <div class="chamada--conteudo">
                 <p>Encontre aqui uma vasta seleção de plantas para decorar a sua casa e 
                     torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine 
                     nossa newsletter para saber das novidades da marca
                 </p>
+                <div>
+
+                </div>
                 <img src="assents/img/imagem-hero 1.png" alt="planta em vaso" class="chamada--conteudo-img">
+    
             </div>
-            <form action="#" >
+            
+            <form action="#" class=" chamada__enviar-email ">
                 <input type="email" class="input input--icon icon--email" placeholder="Insira seu e-mail" >
-                <button class="botao">Assinar newsletter</button>
+                <button class="botao enviar--email">Assinar newsletter</button>
             </form>
+        </section>
+        
+        <section class="como--conseguir-desktop container">
+            <div class="como--conseguir-desktop-img">
+            </div>
+            <div class="como--conseguir-desktop__informacoes">
+                    <h2 class="titulo alinhamento-central">Como conseguir <br><span class="titulo__destaque">minha planta?</span></h2>
+                <a href="#">
+                    <img src="assents/icons/mouse.svg" alt="link mouse">
+                    Escolha suas plantas
+                </a>
+                <a href="#">
+                    <img src="assents/icons/carrinho_icon.svg" alt="link carrinho">
+                    Faça seu pedido
+                </a>
+                <a href="#">
+                    <img src="assents/icons/Truck.svg" alt="link caminhao">
+                    aguarde na sua casa
+                </a>
+            </div>
+            <div class="chamada__background-planta-desktop"></div>
+    
         </section>
 
         <section class="como--conseguir container">
@@ -50,95 +99,95 @@
 
         <section class="nossos--produtos container" >
             <h2 class="titulo alinhamento-central nossos--produtos-titulo">Conheceça nossos <br><span class="titulo__destaque">produtos</span></h2>
-
-            <article class="cartao">
-            <img src="assents/img/produto-01 1.png" alt="" class="cartao__img ">
-            <div class="cartao__informacoes">
-                <h3 class="titulo__destaque">Ajuga reptans</h3>
-                <p>R$ 20, 00</p>
-                <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
-            </div>
-            </article>
-
-            <article class="cartao">
-                <img src="assents/img/produto-02 1.png" alt="" class="cartao__img aumentar--img-mais">
+            <div class="nossos--videos__colecao">
+                <article class="cartao">
+                <img src="assents/img/produto-01 1.png" alt="" class="cartao__img ">
                 <div class="cartao__informacoes">
-                    <h3 class="titulo__destaque">Cordyline fruticosa</h3>
-                    <p>R$ 20, 00</p>
-                    <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
-                </div>
-            </article>
-
-            <article class="cartao">
-                <img src="assents/img/produto-03 1.png" alt="" class="cartao__img aumentar--img">
-                <div class="cartao__informacoes">
-                    <h3 class="titulo__destaque">Crassula ovata</h3>
-                    <p>R$ 20, 00</p>
-                    <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
-                </div>
-            </article>
-
-            <article class="cartao">
-                <img src="assents/img/produto-04 1.png" alt="" class="cartao__img aumentar--img-mais">
-                <div class="cartao__informacoes">
-                    <h3 class="titulo__destaque">Cyperus rotundus</h3>
+                    <h3 class="titulo__destaque">Ajuga reptans</h3>
                     <p>R$ 20, 00</p>
                     <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
                 </div>
                 </article>
-    
+
                 <article class="cartao">
-                    <img src="assents/img/produto-05 1.png" alt="" class="cartao__img aumentar--img">
+                    <img src="assents/img/produto-02 1.png" alt="" class="cartao__img aumentar--img-mais">
                     <div class="cartao__informacoes">
-                        <h3 class="titulo__destaque">Delairea odorata</h3>
+                        <h3 class="titulo__destaque">Cordyline fruticosa</h3>
                         <p>R$ 20, 00</p>
                         <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
                     </div>
                 </article>
-    
-            <article class="cartao">
-                <img src="assents/img/produto-06 1.png" alt="" class="cartao__img aumentar--img">
-                <div class="cartao__informacoes">
-                    <h3 class="titulo__destaque">Datura metel</h3>
-                    <p>R$ 20, 00</p>
-                    <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
-                </div>
-            </article>
 
+                <article class="cartao">
+                    <img src="assents/img/produto-03 1.png" alt="" class="cartao__img aumentar--img">
+                    <div class="cartao__informacoes">
+                        <h3 class="titulo__destaque">Crassula ovata</h3>
+                        <p>R$ 20, 00</p>
+                        <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
+                    </div>
+                </article>
+
+                <article class="cartao">
+                    <img src="assents/img/produto-04 1.png" alt="" class="cartao__img aumentar--img-mais">
+                    <div class="cartao__informacoes">
+                        <h3 class="titulo__destaque">Cyperus rotundus</h3>
+                        <p>R$ 20, 00</p>
+                        <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
+                    </div>
+                    </article>
+        
+                    <article class="cartao">
+                        <img src="assents/img/produto-05 1.png" alt="" class="cartao__img aumentar--img">
+                        <div class="cartao__informacoes">
+                            <h3 class="titulo__destaque">Delairea odorata</h3>
+                            <p>R$ 20, 00</p>
+                            <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
+                        </div>
+                    </article>
+        
+                <article class="cartao">
+                    <img src="assents/img/produto-06 1.png" alt="" class="cartao__img aumentar--img">
+                    <div class="cartao__informacoes">
+                        <h3 class="titulo__destaque">Datura metel</h3>
+                        <p>R$ 20, 00</p>
+                        <a href="#" class="link--compra">Comprar <img src="assents/icons/seta_ofertas.svg" alt="seta da oferta"></a>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section class="nossos--videos container">
 
             <h2 class="titulo alinhamento-central nossos--produtos-titulo">Veja aqui os nossos <br><span class="titulo__destaque">vídeos</span></h2>
+            <div class="nossos--videos__colecao">
+                <article class="video">
+                    <div class="video__background modelo1">
+                        <img src="assents/icons/Frame 4.png" alt="">
+                    </div>
+                    <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
+                </article>
 
-            <article class="video">
-                <div class="video__background modelo1">
-                    <img src="assents/icons/Frame 4.png" alt="">
-                </div>
-                <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
-            </article>
+                <article class="video">
+                    <div class="video__background modelo2">
+                        <img src="assents/icons/Frame 4.png" alt="">
+                    </div>
+                    <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
+                </article>
 
-            <article class="video">
-                <div class="video__background modelo2">
-                    <img src="assents/icons/Frame 4.png" alt="">
-                </div>
-                <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
-            </article>
+                <article class="video">
+                    <div class="video__background modelo3">
+                        <img src="assents/icons/Frame 4.png" alt="">
+                    </div>
+                    <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
+                </article>
 
-            <article class="video">
-                <div class="video__background modelo3">
-                    <img src="assents/icons/Frame 4.png" alt="">
-                </div>
-                <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
-            </article>
-
-            <article class="video">
-                <div class="video__background modelo4">
-                    <img src="assents/icons/Frame 4.png" alt="">
-                </div>
-                <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
-            </article>
-
+                <article class="video">
+                    <div class="video__background modelo4">
+                        <img src="assents/icons/Frame 4.png" alt="">
+                    </div>
+                    <h2 class="titulo--alternativo">Vídeo XYZ <br><span class="subtitulo">Publicado em março de 2019</span></h2>
+                </article>
+            </div>
         </section>
     </main>
 

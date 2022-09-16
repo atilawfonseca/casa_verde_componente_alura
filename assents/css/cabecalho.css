@@ -4,6 +4,36 @@
     align-items: flex-end;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-      
+    max-width: 1500px;
+
 }
+
+.navegacao--desktop {
+    display: none;
+}
+
+@media screen and (min-width:900px) {
+    
+    
+
+    .cabecalho__icon-carrinho {
+        display: none;
+    }
+    .navegacao--desktop{
+        display: block;
+    }
+    
+    .navegacao--desktop ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 1rem;
+    }
+    .navegacao--desktop ul li a{
+        text-decoration: none;
+        color: var(--cinza);
+    }
+  
+}
+
+
 

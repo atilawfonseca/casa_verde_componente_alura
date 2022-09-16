@@ -1,5 +1,10 @@
 .nossos--videos {
     margin-top: 3rem;
+    max-width: 1200px;
+}
+.video {
+    max-height: 500px;
+    max-width: 500px;
 }
 .modelo1 {
     background-image: url("../../assents/img/Mask\ Group-1.png");
@@ -15,4 +20,12 @@
 
 .modelo4 {
     background-image: url("../img/Mask\ Group-4.png");
+}
+
+@media screen and (min-width:600px) {
+    .nossos--videos__colecao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 }

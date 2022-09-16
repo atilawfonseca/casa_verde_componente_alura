@@ -2,11 +2,13 @@
     background-image: url("../icons/Vector_2.svg");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 25%;
+    background-size: 125px;
     width: 100vw;
+    max-width: 1500px;
     box-sizing: border-box;
     background-color: white;
     padding: 1rem 1.5rem;
+    margin: 0px auto;
 
 }
 

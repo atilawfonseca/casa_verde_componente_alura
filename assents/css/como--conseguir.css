@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
+    max-width: 600px;
 }
 .como--conseguir a {
     text-decoration: none;
@@ -17,5 +18,67 @@
     padding-left: 2em;
     font-size: 16px;
     color: var(--cinza);
+    
+}
+.como--conseguir-desktop{
+    display: none;
+}
+
+@media screen and (min-width:900px) {
+    .como--conseguir {
+        display: none;
+    }
+
+    .como--conseguir-desktop{
+        display: flex;
+        background-color: white;
+        width: 90%;
+        position: relative;
+        
+    }
+    .como--conseguir-desktop-img {
+        flex-grow: 1;
+        background-image: url(../img/image\ 3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 400px;
+       
+    }
+
+    .como--conseguir-desktop__informacoes{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .chamada__background-planta-desktop {
+        background-image: url(../img/imagem-hero\ 1_grande.png);
+        background-size: 110%;
+        width: 500px;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: absolute;
+        right: -20px;
+        top: -170%;
+        
+    }
+    .como--conseguir-desktop__informacoes {
+        padding-top: 2rem;
+        display: flex;
+        gap: 1rem;
+        
+    }
+    .como--conseguir-desktop__informacoes a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1.5em;
+        align-items: center;
+        padding-left: 15%;
+        font-size: 16px;
+        color: var(--cinza);
+        
+    }
     
 }

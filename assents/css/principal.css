@@ -1,0 +1,28 @@
+.principal nav {
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .principal {
+        margin-top: 2rem;
+    }
+    .principal nav {
+        display: block;
+    }
+    .navegacao--links {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .navegacao--links a {
+        text-decoration: none;
+        color: var(--cinza);
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .navegacao--links {
+        display: none;
+    }
+}
